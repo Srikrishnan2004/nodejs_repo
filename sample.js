@@ -3,10 +3,11 @@ const server=http.createServer((req,res)=>{
     if(req.url==='/')
     {
         res.end("Welcome to our home page");
+        console.log("Hello World");
     }
    if(req.url==='/about')
    {
-    res.end("Exit");
+    res.end("Hello World");
    }
 });
 
